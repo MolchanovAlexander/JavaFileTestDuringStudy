@@ -18,7 +18,7 @@ public class MainReadFile1 {
             }
             System.out.println(stringBuilder.toString());
         } catch (IOException e) {
-            throw new RuntimeException("Cant write data to file", e);
+            throw new RuntimeException("Cant read", e);
         } finally {
             if (bufferedReader != null) {
                 try {

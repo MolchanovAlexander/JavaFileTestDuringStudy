@@ -7,8 +7,9 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-
-       String[] test = new String[]{"guf", "rip", "dno"};
+       String g ="";
+        System.out.println(g.charAt(0));
+        String[] test = new String[]{"guf", "rip", "dno"};
         File file = new File("users.txt");
 
         for (String user: test) {
